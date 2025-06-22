@@ -12,4 +12,7 @@ Step 2 :- when we apply this dependdency all end points will be secure by deafau
 -> when we add this password on authentiaction and in name user than we can see response of endpoints 
 -> the client send an authorisaiton header , Authorisation:Basic<encodedString> , the server decode the string , and extract username and password
 
-Step 3 :- 
+Step 3 :- Now we make conifg package 
+-> in this package , we make  SpringSecurity class , above we write @enableWEbsecurity @configuration annotaion 
+-> tha we make SecurityFilterchain type method and in parameter (Httprequest http) 
+
